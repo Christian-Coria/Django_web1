@@ -19,6 +19,7 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -28,8 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'miapp',
     'blog',
-    'tailwind'
-    'theme'
+    'tailwind',
+    'theme',
 ]
 
 TAILWIND_APP_NAME = 'theme'
