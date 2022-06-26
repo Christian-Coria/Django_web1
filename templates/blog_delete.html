@@ -1,6 +1,10 @@
+{%extends 'base.html'%}
+
+{% block content %}
 estas seguro?
 <form method="POST">
     {% csrf_token %}
     {{form}}
     <button type= "submit">Delete</button>
     </form>
+{% endblock content %}
